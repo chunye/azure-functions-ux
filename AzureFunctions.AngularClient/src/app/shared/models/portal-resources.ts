@@ -22,6 +22,7 @@ export class PortalResources {
     public static functionDev_status: string = "functionDev_status";
     public static functionDev_viewFiles: string = "functionDev_viewFiles";
     public static functionNew_chooseTemplate: string = "functionNew_chooseTemplate";
+    public static subNew_subAlreadyExist: string = "subNew_subAlreadyExist";
     public static subNew_chooseTemplate: string = "subNew_chooseTemplate";
     public static subNew_nameYourFriendlySubName: string = "subNew_nameYourFriendlySubName";
     public static subNew_friendlySubNameName: string = "subNew_friendlySubNameName";
@@ -241,6 +242,8 @@ export class PortalResources {
     public static fileExplorer_edit: string = "fileExplorer_edit";
     public static fileExplorer_upload: string = "fileExplorer_upload";
     public static storageLockNote: string = "storageLockNote";
+    public static storage_endpoint_azure: string = "storage_endpoint_azure";
+    public static storage_endpoint_other: string = "storage_endpoint_other";
     public static fileExplorer_fileAlreadyExists: string = "fileExplorer_fileAlreadyExists";
     public static functionNew_functionExsists: string = "functionNew_functionExsists";
     public static binding_storageAccountKey: string = "binding_storageAccountKey";
@@ -321,8 +324,8 @@ export class PortalResources {
     public static functionKeys_revoke: string = "functionKeys_revoke";
     public static logStreaming_compress: string = "logStreaming_compress";
     public static logStreaming_expand: string = "logStreaming_expand";
-    public static functionDev_gerFunctionUrl: string = "functionDev_gerFunctionUrl";
-    public static functionDev_gerGithubSecret: string = "functionDev_gerGithubSecret";
+    public static functionDev_getFunctionUrl: string = "functionDev_getFunctionUrl";
+    public static functionDev_getGithubSecret: string = "functionDev_getGithubSecret";
     public static httpRun_headers: string = "httpRun_headers";
     public static httpRun_noHeaders: string = "httpRun_noHeaders";
     public static sideNav_AllSubscriptions: string = "sideNav_AllSubscriptions";
